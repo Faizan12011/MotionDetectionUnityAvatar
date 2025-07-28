@@ -1,0 +1,5 @@
+live and video option 
+pick file and stuff 
+
+create UI for this 
+

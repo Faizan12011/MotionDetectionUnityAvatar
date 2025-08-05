@@ -1,3 +1,8 @@
+// File: pose_firestore_writer.dart
+// Purpose: Utility for compressing pose frames (JSON → GZIP → Base64) and
+// persisting them in a Firestore `pose_sessions/{session}/frames` collection.
+// Maintains running byte counter in parent session doc.
+
 import 'dart:convert';
 import 'dart:io';
 import 'package:cloud_firestore/cloud_firestore.dart';

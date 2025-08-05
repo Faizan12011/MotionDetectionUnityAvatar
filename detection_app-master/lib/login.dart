@@ -1,3 +1,7 @@
+// File: login.dart
+// Purpose: Handles PIN-based authentication. Allows users to set a PIN on first run, 
+// validate it on subsequent logins, or proceed as a demo user. Navigates to `MainScreen` upon success.
+
 import 'package:flutter/material.dart';
 
 import 'main.dart';

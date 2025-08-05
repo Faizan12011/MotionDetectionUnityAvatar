@@ -1,3 +1,8 @@
+"""global_vars.py
+Centralised runtime configuration flags shared across MediaPipe avatar scripts.
+Adjust camera/video options, networking method, and debug toggles here.
+"""
+
 # Internally used, don't mind this.
 KILL_THREADS = False
 

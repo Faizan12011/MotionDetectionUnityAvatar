@@ -1,3 +1,9 @@
+// File: video_pose_sql.dart
+// Purpose: Allows users to pick a video, extracts frames at `_poseFps`, runs
+// pose detection (Google ML Kit), stores per-frame landmarks in SQLite for
+// overlay, streams down-sampled poses to Firebase RTDB, and optionally uploads
+// compressed frames to Firestore.
+
 import 'dart:async';
 import 'dart:convert';
 import 'dart:io';

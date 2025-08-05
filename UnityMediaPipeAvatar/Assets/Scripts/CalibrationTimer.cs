@@ -1,3 +1,8 @@
+// File: CalibrationTimer.cs
+// Purpose: Manages a user-triggered countdown that guides the player through
+// a calibration pose before avatars begin tracking. Hides landmarks until
+// calibration is complete.
+
 using System.Collections;
 using TMPro;
 using UnityEngine;

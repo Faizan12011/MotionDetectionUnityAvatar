@@ -1,3 +1,8 @@
+// File: main.dart
+// Purpose: Application entry-point. Initializes Firebase, sets up MaterialApp, 
+// and provides `MainScreen` which serves as the home menu offering video recording,
+// selection, record deletion, PIN reset, and logout.
+
 import 'package:detection_app/firebase_options.dart';
 import 'package:detection_app/records_delete.dart';
 

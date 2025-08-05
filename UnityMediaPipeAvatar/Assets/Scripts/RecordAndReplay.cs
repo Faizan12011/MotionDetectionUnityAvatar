@@ -1,3 +1,8 @@
+// File: RecordAndReplay.cs
+// Purpose: Records avatar transforms to memory while data is being received
+// and plays them back for instant replay. Also exposes simple scene reload and
+// UI messaging utilities.
+
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;

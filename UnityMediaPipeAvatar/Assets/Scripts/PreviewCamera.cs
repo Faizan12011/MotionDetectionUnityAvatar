@@ -1,3 +1,7 @@
+// File: PreviewCamera.cs
+// Purpose: Smoothly orients a secondary camera to continuously look at the
+// avatar’s chest landmark, providing a live preview of the character’s front.
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

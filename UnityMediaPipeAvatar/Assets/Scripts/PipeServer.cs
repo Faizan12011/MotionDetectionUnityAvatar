@@ -1,3 +1,8 @@
+// File: PipeServer.cs
+// Purpose: Core bridge between external MediaPipe/Firebase data streams and Unity.
+// Receives landmark frames (named pipes, UDP or Firebase), creates/updates virtual
+// transforms, smooths data, drives avatar movement, and provides session browser UI.
+
 // REVIEWS
 using System;
 using System.Collections;

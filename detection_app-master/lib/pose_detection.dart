@@ -1,3 +1,9 @@
+// File: pose_detection.dart
+// Purpose: Implements live pose detection using device camera & Google ML Kit.
+// Streams landmarks at ~5 FPS, renders them with `PosePainter`, and optionally
+// pushes compressed pose data to Firebase Realtime DB & Firestore for storage.
+// Provides option to save or skip cloud storage at session start.
+
 import 'package:detection_app/login.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';

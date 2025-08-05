@@ -1,3 +1,7 @@
+// File: CharacterSwitcher.cs
+// Purpose: Cycles through an array of avatars on mouse click, activating one
+// at a time so users can preview different character models with live pose.
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

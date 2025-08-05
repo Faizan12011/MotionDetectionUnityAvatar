@@ -1,3 +1,7 @@
+// File: MoveAlongCircle.cs
+// Purpose: Demo utility that moves a game object along a circular path – often
+// used to orbit a camera or object for visualisation.
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

@@ -1,3 +1,7 @@
+// File: CharacterMover.cs
+// Purpose: Simple WASD/Vertical-axis input script that translates the character
+// forward/backward to allow manual navigation in demo scenes.
+
 using UnityEngine;
 using UnityEngine.UIElements;
 

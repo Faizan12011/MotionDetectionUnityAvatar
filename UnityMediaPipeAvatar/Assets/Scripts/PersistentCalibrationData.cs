@@ -1,4 +1,9 @@
+// File: PersistentCalibrationData.cs
+// Purpose: ScriptableObject that serialises calibration data for each avatar
+// so calibration can be saved in the Unity project and reused across sessions.
+
 using UnityEngine;
+using System.Collections;
 
 [CreateAssetMenu(fileName = "Data", menuName = "Avatar/PersistentCalibrationData", order = 1)]
 public class PersistentCalibrationData : ScriptableObject

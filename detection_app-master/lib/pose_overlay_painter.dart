@@ -1,3 +1,8 @@
+// File: pose_overlay_painter.dart
+// Purpose: Custom `CustomPainter` (`VideoPosePainter`) that draws pose
+// landmarks and colored body connections on top of video frames for the
+// offline video-processing screen.
+
 import 'package:flutter/material.dart';
 import 'package:google_ml_kit/google_ml_kit.dart';
 

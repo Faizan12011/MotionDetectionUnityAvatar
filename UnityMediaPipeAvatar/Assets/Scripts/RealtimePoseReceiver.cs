@@ -1,4 +1,8 @@
-// RealtimePoseReceiver.cs
+// File: RealtimePoseReceiver.cs
+// Purpose: Listens to Firebase Realtime Database `sessions/{id}/frames` feed
+// (child-added) and forwards each decoded landmark Vector3[] to any avatar
+// controller implementing `ApplyPose` for near-real-time remote playback.
+
 using System;
 using System.Collections;
 using System.Collections.Generic;

@@ -1,3 +1,9 @@
+// File: pose_frame_db.dart
+// Purpose: Provides two SQLite helpers:
+// 1. `PinDb` – stores a single user PIN & name.
+// 2. `PoseFrameDb` – temporary storage of pose frames when processing video,
+//    enabling random access during overlay & streaming.
+
 import 'dart:convert';
 import 'dart:io';
 

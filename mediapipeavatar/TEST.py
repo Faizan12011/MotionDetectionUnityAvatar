@@ -1,3 +1,9 @@
+"""TEST.py
+Quick sanity check script that opens the default webcam using OpenCV and
+shows a live feed until the user presses 'q'. Useful for verifying camera
+connectivity independently of the main app.
+"""
+
 import cv2
 
 cap = cv2.VideoCapture(0)

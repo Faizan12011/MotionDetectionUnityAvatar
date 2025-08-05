@@ -1,3 +1,8 @@
+"""clientUDP.py
+Threaded UDP client used by `body.py` to send newline-terminated landmark
+payloads to Unity’s `ServerUDP` listener.
+"""
+
 import socket
 import time
 import threading

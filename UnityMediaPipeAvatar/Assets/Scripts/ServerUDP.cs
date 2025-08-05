@@ -1,3 +1,7 @@
+// File: ServerUDP.cs
+// Purpose: Lightweight UDP listener wrapper used by `PipeServer` as a fallback
+// transport for incoming landmark data when Firebase/pipes are unavailable.
+
 using System;
 using System.Collections.Generic;
 using System.Text;

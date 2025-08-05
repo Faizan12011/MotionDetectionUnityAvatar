@@ -1,3 +1,10 @@
+"""body.py
+GUI application that captures webcam or video, runs MediaPipe pose to obtain
+33 landmarks, computes hip-delta forward motion, and streams serialized data
+over UDP or named pipes to Unity. Also renders basic stats in a Tkinter
+window.
+"""
+
 import tkinter as tk
 from tkinter import filedialog, scrolledtext
 import threading

@@ -1,6 +1,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// File: TransformCopier.cs
+// Purpose: Duplicates the hierarchy of a source transform onto a destination
+// copy each frame, useful for debugging or creating ghost models without
+// interfering with avatar scripts.
+
 // Simply copy's a transform and it's children on to another same object.
 // Optionally generates a free parent to arbitrarily move/rotate.
 public class TransformCopier : MonoBehaviour

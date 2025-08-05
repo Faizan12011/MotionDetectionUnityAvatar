@@ -1,3 +1,8 @@
+// File: CalibrationData.cs
+// Purpose: Serializable helper that stores directional vectors and rotations between
+// avatar bones and tracked landmarks, enabling persistent calibration and smooth
+// runtime interpolation.
+
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;

@@ -1,3 +1,7 @@
+// File: Landmark.cs
+// Purpose: Enumerates MediaPipe Pose landmark indices (optionally flipped) so
+// C# code can refer to joints by name instead of magic numbers.
+
 #define FLIP // Comment out this line to flip the landmarks (internally).
 // NOTE: image = cv2.flip(image, 1) in the Python side may also be of interest to you as well.
 

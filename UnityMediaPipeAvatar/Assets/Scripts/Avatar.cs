@@ -1,3 +1,7 @@
+// File: Avatar.cs
+// Purpose: Applies MediaPipe pose data to a humanoid avatar: manages calibration, bone alignment,
+// foot IK/grounding, and character movement based on tracked hip motion.
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

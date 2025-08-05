@@ -1,3 +1,7 @@
+// File: AvatarPoseApplier.cs
+// Purpose: Maps raw MediaPipe landmark positions to Unity humanoid bones each frame,
+// converting coordinate systems and smoothing hip/arm offsets for live motion.
+
 // AvatarPoseApplier.cs
 using System;
 using UnityEngine;

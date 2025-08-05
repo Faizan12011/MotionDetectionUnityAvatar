@@ -1,3 +1,6 @@
+// File: customButton.dart
+// Purpose: Provides `buildCustomButton`, a reusable function that returns a consistently styled `ElevatedButton` used across the app for primary actions.
+
 import 'package:flutter/material.dart';
 
 Widget buildCustomButton(

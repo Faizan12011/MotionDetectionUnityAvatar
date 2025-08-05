@@ -1,3 +1,7 @@
+// File: records_delete.dart
+// Purpose: Lists pose sessions stored in Firestore and lets authenticated users
+// delete selected sessions (including sub-collection frames) via UI.
+
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:detection_app/login.dart';
 import 'package:intl/intl.dart';
